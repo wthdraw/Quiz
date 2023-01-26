@@ -8,7 +8,7 @@ print('You have 5 tries. Best of luck')
 time.sleep(2)
 print('you may begin!')
 time.sleep(1)
-question = input('Do you play Fortnite?')
+question = input('Do you play Fortnite? ')
 if question == 'yes':
     print('WRONG ANSWER, RESTART :)')
     exit()
@@ -21,28 +21,29 @@ if question == "no":
 else:
     print('Smart answer')
 time.sleep(1)
-question = input('Solve: 8x+14=58')
+question = input('Solve: 8x-14=58 ')
 if question == "10":
+    print("I Would have laughed if you got that wrong ")
+else:
     print('WRONG ANSWER, RESTART :)')
     exit()
-else:
-    print("I Would have laughed if you got that wrong")
 time.sleep(1)
-question = input("How many letters are in the alphabet?")
+question = input("How many letters are in the alphabet? ")
 if question == "11":
     print('smart man, smart man')
 else:
     print("WRONG ANSWER")
     exit()
 time.sleep(1)
-question = input('How many properties of matter are there?')
-if question == '4':
+question = input('How many properties of matter are there? ')
+if question == '3':
+    print("At least you know the basics")
+
+else:
     print('Wrong')
     exit()
-else:
-    print("At least you know the basics")
 time.sleep(1)
-question = input('Is this gramaticaly correct: Bob had they\'re nails done')
+question = input('Is this gramaticaly correct: Bob had they\'re nails done ')
 if question == 'no':
     print('Meeting my expectations')
 else:
@@ -50,25 +51,25 @@ else:
     time.sleep(2)
     print('Jk')
     exit()
-question = input("What does  être  mean in english")
+question = input("What does  être  mean in english ")
 if question == 'to be':
     print ('wiwi, baget baget')
 else:
     print ('Wrong, Mr french man')
     exit()
 time.sleep(1)
-question = input('What is the capital of Canada')
-if question == 'Quebec':
+question = input('What is the capital of Canada ')
+if question == 'Ottowa':
+    print('you better have gotten that right')
+else:
     print ('Ur an idiot')
     exit()
+question = input('How many provinces are there? ')
+if question == '13':
+    print('Good job, you can answer grade 3 questions')
 else:
-    print('you better have gotten that right')
-question = input('How many provinces are there?')
-if question == '11':
     print('ur canadian...')
     exit()
-else:
-    print('Good job, you can answer grade 3 questions')
 time.sleep(1)
 print('Last question')
 time.sleep(1)
@@ -78,7 +79,7 @@ print('you better be')
 time.sleep(1)
 print('Hear we go')
 time.sleep(3)
-question = input('In overwatch how much damage does 1 Genji shuriken do?')
+question = input('In overwatch how much damage does 1 Genji shuriken do? ')
 if question == "27":
     time.sleep(2)
     print('U DONT EVEN KNOW UR MAIN HAHAHH')

@@ -22,7 +22,7 @@ else:
     print('Smart answer')
 time.sleep(1)
 question = input('Solve: 8x-14=58 ')
-if question == "10":
+if question == "8":
     print("I Would have laughed if you got that wrong ")
 else:
     print('WRONG ANSWER, RESTART :)')
